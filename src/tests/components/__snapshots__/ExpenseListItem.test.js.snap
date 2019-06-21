@@ -12,7 +12,7 @@ exports[`should render ExpenseListItem Component with an expense 1`] = `
   <p>
     195
      - 
-    0
+    1st Jan 1970
   </p>
 </div>
 `;
