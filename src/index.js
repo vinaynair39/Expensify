@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import 'react-dates/lib/css/_datepicker.css';
-
+import './firebase/firebase';
 import AppRouter from './router/AppRouter';
 import configureStore from './store/configureStore';
 import getVisibleExpenses from './selectors/expenses'
