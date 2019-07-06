@@ -12,4 +12,5 @@ test('Should render ExpensesSummary with 1 expense', () => {
 test('Should render ExpensesSummary with multiple expense', () => {
     const wrapper = shallow(<ExpensesSummary expenses={expenses}/>);
     expect(wrapper).toMatchSnapshot();
+    console.log("NODE_ENV",process.env.NODE_ENV) 
 });
